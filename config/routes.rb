@@ -3,4 +3,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  resources :products, only: :index
+  resources :categories, only: :index 
+  get "products/search", to: "products#search"
+
+
+
 end
