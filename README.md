@@ -4,7 +4,7 @@ La API fue construida en Ruby on Rails, debidamente conectada con la base de dat
 
   1) GET productos
   2) GET categories
-  3) SEARCH producto por nombre
+  3) GET producto por nombre
 
 -----------------------------
 # GET lista de products
