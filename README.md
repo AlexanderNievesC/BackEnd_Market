@@ -13,14 +13,14 @@ La API fue construida en Ruby on Rails, debidamente conectada con la base de dat
 A) LINK ------> https://api-bsale-first.herokuapp.com/products
 
 B) PARAMETROS
-    id: identificador del producto
-    name: nombre del producto
-    url: link donde esta contenida la imagen
-    price: precio del producto
-    discount: descuento del prodcto
-    category: categoria del producto
-    id: identificador de la categoria del producto
-    name: nombre de la categoria del producto
+    - id: identificador del producto
+    - name: nombre del producto
+    - url: link donde esta contenida la imagen
+    - price: precio del producto
+    - discount: descuento del prodcto
+    - category: categoria del producto
+    - id: identificador de la categoria del producto
+    - name: nombre de la categoria del producto
 
 C) EJEMPLO DE RESPUESTA
 
@@ -43,9 +43,9 @@ C) EJEMPLO DE RESPUESTA
 A) LINK ----> https://api-bsale-first.herokuapp.com/categories
 
 B) PARAMETROS
-    id: identificador de la categoria
-    name: nombre de la categoria
-    products: detalles del producto 
+    - id: identificador de la categoria
+    - name: nombre de la categoria
+    - products: detalles del producto 
 
 C) EJEMPLO DE RESPUESTA
 
@@ -82,12 +82,12 @@ C) EJEMPLO DE RESPUESTA
 A) LINK ------>  https://api-bsale-first.herokuapp.com/products/search?query=ron      (PARA ESTE CASO SE ESTA BUSCANDO EL PRODUCTO RON)
 
 B) PARÁMETROS
-    id: identificador del prodcuto
-    name: nombre del producto filtrado 
-    url: imagen del producto
-    price: precio del producto
-    discount: descuento del producto
-    categoria: categoria del producto
+    - id: identificador del prodcuto
+    - name: nombre del producto filtrado 
+    - url: imagen del producto
+    - price: precio del producto
+    - discount: descuento del producto
+    - categoria: categoria del producto
       id: identificador de la categoria
       name: nombre de la categoria
 
